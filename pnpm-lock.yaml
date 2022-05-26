@@ -1,9 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
+  loader-utils: ^3.2.0
   webpack: 4.39.2
   webpack-cli: 3.3.6
   webpack-dev-server: 3.11.0
+
+dependencies:
+  loader-utils: registry.npmmirror.com/loader-utils/3.2.0
 
 devDependencies:
   webpack: registry.npmmirror.com/webpack/4.39.2
@@ -2647,6 +2651,13 @@ packages:
       emojis-list: registry.npmmirror.com/emojis-list/3.0.0
       json5: registry.npmmirror.com/json5/1.0.1
     dev: true
+
+  registry.npmmirror.com/loader-utils/3.2.0:
+    resolution: {integrity: sha512-HVl9ZqccQihZ7JM85dco1MvO9G+ONvxoGa9rkhzFsneGLKSUg1gJf9bWzhRhcvm2qChhWpebQhP44qxjKIUCaQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/loader-utils/-/loader-utils-3.2.0.tgz}
+    name: loader-utils
+    version: 3.2.0
+    engines: {node: '>= 12.13.0'}
+    dev: false
 
   registry.npmmirror.com/locate-path/3.0.0:
     resolution: {integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/locate-path/-/locate-path-3.0.0.tgz}
